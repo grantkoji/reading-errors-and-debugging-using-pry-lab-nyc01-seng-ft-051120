@@ -9,7 +9,7 @@ def state_log(generate_star_date)
   "Captain's Log, star date #{generate_star_date}."
 end
 
-binding.pry
 def engage(generate_star_date)
+  binding.pry
   return "/Captain's Log, ${generate_star_date} /"
 end
