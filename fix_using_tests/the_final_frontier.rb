@@ -11,6 +11,5 @@ end
 
 binding.pry
 def engage(generate_star_date)
-  star_date = generate_star_date
-  return "/Captain's Log, ${star_date} /"
+  return "/Captain's Log, ${generate_star_date} /"
 end
